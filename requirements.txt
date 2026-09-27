@@ -1,18 +1,5 @@
-requests>=2.31.0
-pandas>=2.1.0
-numpy>=1.26.0
-PyYAML>=6.0.1
-python-dotenv>=1.0.0
-streamlit>=1.32.0
-plotly>=5.20.0
-pytest>=8.0.0
-tenacity>=8.2.3
-# All optional. The app runs in public-data mode with zero keys set.
-# No Binance API key is required or used anywhere in this repo (public
-# market-data endpoints only). Add BINANCE_API_KEY/SECRET here only if you
-# build the (currently unimplemented, disabled) execution module later.
 
-CRYPTOPANIC_API_KEY=
-TELEGRAM_BOT_TOKEN=
-TELEGRAM_CHAT_ID=
-DISCORD_WEBHOOK_URL=
+requests>=2.31.0
+pandas>=2.0.0
+feedparser>=6.0.10
+streamlit>=1.28.0
